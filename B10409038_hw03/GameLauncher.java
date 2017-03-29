@@ -48,9 +48,9 @@ public class GameLauncher {
                 System.out.printf("猜數字限制 %d 次\n", times);
                 System.out.printf("您總共猜了 %d 次\n", actual_times);
                 System.out.printf("正確數字: %d\n", guess.getAnswer());
-                System.out.println("********** 再玩一次<Y/N>? **********");
+                System.out.println("******* 再玩一次<Y/N>? *******");
                 String Yes_No = sc.next();
-                if (Yes_No.equals("N"))
+                if (Yes_No.equals("N")||Yes_No.equals("n"))
                     end = true;
             } catch (Exception e) {
                 System.out.print("輸入錯誤!\n" +
