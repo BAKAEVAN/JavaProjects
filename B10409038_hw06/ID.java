@@ -11,7 +11,7 @@ public class ID {
     public boolean format_confirm(String input) {
         if (!input.matches("[A-Z]{1}[1-2]{1}[0-9]{8}")) {
             id = input;
-            error = "®æ¦¡¤£²Å";
+            error = "æ ¼å¼ä¸ç¬¦";
         } else {
             id = input;
             alphabet_to_area(id.charAt(0));
@@ -35,114 +35,114 @@ public class ID {
         if (sum % 10 == 0)
             return true;
         else
-            error = "¨­¥÷ÃÒ¦r¸¹¿ù»~";
+            error = "Â¨Â­Ä½Ã·Ä‚Å‡ÅšrÂ¸Å¡Å¼Å¯Å¥~";
         return false;
     }
 
     public void alphabet_to_area(char ABC) {
         switch (ABC) {
             case 'A':
-                area = "¥x¥_¥«";
+                area = "Ä½xÄ½_Ä½Å¤";
                 area_code = 10;
                 break;
             case 'B':
-                area = "¥x¤¤¥«";
+                area = "Ä½xÂ¤Â¤Ä½Å¤";
                 area_code = 11;
                 break;
             case 'C':
-                area = "°ò¶©¥«";
+                area = "Â°ÅˆÅ›Å Ä½Å¤";
                 area_code = 12;
                 break;
             case 'D':
-                area = "¥x«n¥«";
+                area = "Ä½xÅ¤nÄ½Å¤";
                 area_code = 13;
                 break;
             case 'E':
-                area = "°ª¶¯¥«";
+                area = "Â°ÅÅ›Å»Ä½Å¤";
                 area_code = 14;
                 break;
             case 'F':
-                area = "¥x¥_¿¤";
+                area = "Ä½xÄ½_Å¼Â¤";
                 area_code = 15;
                 break;
             case 'G':
-                area = "©yÄõ¿¤";
+                area = "Å yÃ„Å‘Å¼Â¤";
                 area_code = 16;
                 break;
             case 'H':
-                area = "®ç¶é¿¤";
+                area = "Å½Ã§Å›Ã©Å¼Â¤";
                 area_code = 17;
                 break;
             case 'I':
-                area = "¹Å¸q¥«";
+                area = "Å¡Ä¹Â¸qÄ½Å¤";
                 area_code = 34;
                 break;
             case 'J':
-                area = "·s¦Ë¿¤";
+                area = "Ë‡sÅšÃ‹Å¼Â¤";
                 area_code = 18;
                 break;
             case 'K':
-                area = "­]®ß¿¤";
+                area = "Â­]Å½ÃŸÅ¼Â¤";
                 area_code = 19;
                 break;
             case 'L':
-                area = "¥x¤¤¿¤";
+                area = "Ä½xÂ¤Â¤Å¼Â¤";
                 area_code = 20;
                 break;
             case 'M':
-                area = "«n§ë¿¤";
+                area = "Å¤nÂ§Ã«Å¼Â¤";
                 area_code = 21;
                 break;
             case 'N':
-                area = "¹ü¤Æ¿¤";
+                area = "Å¡Ã¼Â¤Ä†Å¼Â¤";
                 area_code = 22;
                 break;
             case 'O':
-                area = "·s¦Ë¥«";
+                area = "Ë‡sÅšÃ‹Ä½Å¤";
                 area_code = 35;
                 break;
             case 'P':
-                area = "¶³ªL¿¤";
+                area = "Å›Å‚ÅLÅ¼Â¤";
                 area_code = 23;
                 break;
             case 'Q':
-                area = "¹Å¸q¿¤";
+                area = "Å¡Ä¹Â¸qÅ¼Â¤";
                 area_code = 24;
                 break;
             case 'R':
-                area = "¥x«n½u";
+                area = "Ä½xÅ¤nËu";
                 area_code = 25;
                 break;
             case 'S':
-                area = "°ª¶¯¿¤";
+                area = "Â°ÅÅ›Å»Å¼Â¤";
                 area_code = 26;
                 break;
             case 'T':
-                area = "«ÌªF¿¤";
+                area = "Å¤ÄšÅFÅ¼Â¤";
                 area_code = 27;
                 break;
             case 'U':
-                area = "ªá½¬¿¤";
+                area = "ÅÃ¡ËÅ¹Å¼Â¤";
                 area_code = 28;
                 break;
             case 'V':
-                area = "¥xªF¿¤";
+                area = "Ä½xÅFÅ¼Â¤";
                 area_code = 29;
                 break;
             case 'W':
-                area = "ª÷ªù¿¤";
+                area = "ÅÃ·ÅÅ¯Å¼Â¤";
                 area_code = 32;
                 break;
             case 'X':
-                area = "¼ê´ò¿¤";
+                area = "ÅºÄ™Â´ÅˆÅ¼Â¤";
                 area_code = 30;
                 break;
             case 'Y':
-                area = "¶§©ú¤s";
+                area = "Å›Â§Å ÃºÂ¤s";
                 area_code = 31;
                 break;
             case 'Z':
-                area = "³s¦¿¿¤";
+                area = "Å‚sÅšÅ¼Å¼Â¤";
                 area_code = 33;
                 break;
         }
@@ -150,9 +150,9 @@ public class ID {
 
     public void check_gender(char id_gender) {
         if (id_gender == '1')
-            gender = "¨k©Ê";
+            gender = "Â¨kÅ Ä˜";
         else
-            gender = "¤k©Ê";
+            gender = "Â¤kÅ Ä˜";
     }
 
     public String correct_message() {
